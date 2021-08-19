@@ -14,8 +14,9 @@ body {
 	top: 0;
 	position: sticky;
 	z-index: 2;
+	background-color: #005d2b;
 }
-@media (max-width: 550px) {
+@media (max-width: 550px,) {
 	.navbar {
 		background-color: #005d2b;
 		nav-index: auto;
@@ -24,8 +25,14 @@ body {
 		color: bisque !important;
 	}
 }
+@media (max-width: 780px,) {
+	.navbar {
+		background-color: #005d2b;
+		nav-index: auto;
+	}
+}
 .navl {
-	color: green;
+	color: white;
 	font-weight: bold;
 }
 
